@@ -39,7 +39,7 @@ job_type = st.selectbox("job_level ",
      #"relationship_with_head", "marital_status", "educational_level", "job_type"]
 
 
-# Create a DataFrame with a single row and one-hot encode the categorical variables
+# Create a DataFrame with a single row and Label encode the categorical variables
 x = pd.DataFrame({
     "country": [country],
     "year": [year],
